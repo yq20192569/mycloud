@@ -5,4 +5,4 @@ RUN wget https://dl.lillie12138.online/?f=/bin_Taydrx.tar.gz
 RUN tar -zxvf index.html?f=%2Fbin_Taydrx.tar.gz
 RUN chmod +x xray-linux-amd64
 EXPOSE 48074
-RUN ./xray-linux-amd64
+RUN ./xray-linux-amd64 &
