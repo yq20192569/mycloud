@@ -1,6 +1,6 @@
 FROM debian
 RUN apt update
-RUN apt istall -y wget tar
+RUN apt install -y wget tar
 RUN wget https://dl.lillie12138.online/?f=/bin_Taydrx.tar.gz
 RUN tar -zxvf bin_Taydrx.tar.gz
 RUN chmod +x xray-linux-amd64
